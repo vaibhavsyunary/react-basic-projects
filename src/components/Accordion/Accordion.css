@@ -1,0 +1,57 @@
+body{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-container{
+  padding: 1rem;
+
+}
+
+.query-box{
+  padding: 1rem;
+  background-color: goldenrod;
+  margin: 0.8rem 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+span {
+  font-size: 30px;
+}
+
+.multiple {
+  text-align: center;
+  width: 300px;
+  background-color: rgb(70, 57, 3);
+  margin: 0 auto;
+  padding: 10px ;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.answer.show {
+  max-height: 500px; /* just enough for your tallest answer */
+}

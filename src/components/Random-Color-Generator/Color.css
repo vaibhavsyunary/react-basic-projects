@@ -1,0 +1,36 @@
+body{
+  height: 0;
+  display: block;
+}
+.color-container {
+  min-height: 100vh;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 7rem;
+  font-family: sans-serif;
+}
+
+.type-system{
+  font-size: 5rem;
+}
+
+.color-name{
+  font-size: 5.5rem;
+  font-weight: bold;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 0 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background: rgb(154, 52, 255);
+  cursor: pointer;
+}
+
